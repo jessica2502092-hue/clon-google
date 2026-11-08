@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header>
+            <nav>
+                <a href="#">Gmail</a> 
+                <a href="#">Imagenes</a> 
+
+                <button class="apps-button" aria-label="Aplicaciones de Google" title="Aplicaciones de Google">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <h1>
+                <span class="azul">G</span><span class="rojo">o</span><span class="amarillo">o</span><span class="azul">g</span><span class="verde">l</span><span class="rojo">e</span>
+            </h1>
+            <div class="search-container">
+                    <span class="search-icon">⌕</span>
+
+                    <input type="text" id="search-input" placeholder="Buscar en Google">
+
+                    <button class="mic-button" id="mic-button"
+                        title="Búsqueda por voz" aria-label="Búsqueda por voz">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="#4285F4"
+                            d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/>
+                        <path fill="#EA4335"
+                            d="M18 11a6 6 0 0 1-9.5 4.8l-1.4 1.4A8 8 0 0 0 20 11z"/>
+                        <path fill="#34A853"
+                            d="M6 11a6 6 0 0 0 12 0h2a8 8 0 0 1-7 7.94V22h-2v-3.06A8 8 0 0 1 4 11z"/>
+                        </svg>
+                    </button>
+            </div>
+            <div class="buttons-container">
+                <button id="search-button">Buscar con Google</button>
+                <button id="lucky-button">Voy a tener suerte</button>
+            </div>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
